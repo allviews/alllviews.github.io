@@ -54,8 +54,13 @@ blockquote {
 
 p, ul, ol {
 	font-size: 15px; /* 18px */
-	line-height: 28px; /* 24px/18px */
-	margin-bottom: 1.3334em; /* 24px/18px */
+	line-height: 30px; /* 24px/18px */
+	margin-bottom: 1.5em; /* 24px/18px */
+}
+
+li {
+	font-size: 15px;
+	line-height: 30px;
 }
 
 h1 {
@@ -66,15 +71,16 @@ h1 {
 
 h2 {
 	font-size: 23px; /* 36px/18px */
-	line-height: 38px; /* 48px/36px */
+	line-height: 42px; /* 48px/36px */
 	padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+	margin-top: 50px; margin-bottom: 20px;
 }
 
 h3, h4, h5, h6 {
 	font-size: 21px; /* 24px/18px */
 	line-height: 38px; /* 24px/24px */
 	padding: 0.5em 0; /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
-}
+	margin-top: 50px; margin-bottom: 20px; }
 
 blockquote {
 	font-style: italic;
